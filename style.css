@@ -35,6 +35,20 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #575757;
 }
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.photo-gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 section {
     padding: 20px;
